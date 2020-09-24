@@ -1,4 +1,4 @@
-package ClassesAndObjects;
+package Classes.ClassesAndObjects;
 
 public class CreateAnObject {
     int x = 5;

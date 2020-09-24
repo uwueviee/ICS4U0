@@ -1,4 +1,4 @@
-package ClassesAndObjects.MultipleClasses;
+package Classes.ClassesAndObjects.MultipleClasses;
 
 public class OtherClass {
     public static void main(String[] args) {
