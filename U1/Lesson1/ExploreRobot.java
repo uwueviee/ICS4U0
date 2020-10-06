@@ -8,16 +8,18 @@ public class ExploreRobot {
         Robot allan = new Robot(goodcity, 0, 0, Direction.EAST);
 
         for (int i = 0; i < 45; i++) {
-            System.out.println(i);
             for (int f = 0; f < 90; f++) {
                 allan.move();
             }
+
             RoboMisc.turnRight(allan);
             allan.move();
             RoboMisc.turnRight(allan);
+
             for (int f = 0; f < 90; f++) {
                 allan.move();
             }
+
             allan.turnLeft();
             allan.move();
             allan.turnLeft();
